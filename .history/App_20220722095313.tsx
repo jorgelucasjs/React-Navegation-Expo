@@ -12,11 +12,13 @@ export type RootStackParams = {
 	Restaurants: any;
 	Profile: any;
 }
+
 const RootStack = createNativeStackNavigator<RootStackParams>();
 
 export default function App() {
 
     const isDarkMode = useColorScheme() === 'dark';
+
 
     return (
         <NavigationContainer>
