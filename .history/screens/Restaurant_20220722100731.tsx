@@ -3,9 +3,9 @@ import React from 'react'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParams } from '../App';
 
-type Props = NativeStackNavigationProp<RootStackParams, 'Restaurant'>;
+type Props = NativeStackNavigationProps<RootStackParams, 'Restaurant'>;
 
-const RestaurantScreen: React.FC<Props> = ({name}) => {
+const RestaurantScreen:React.FC<Props> = ({name}) => {
 	return (
 		<View style={styles.container}>
 			<Text style={styles.screenTitle}>{name}</Text>

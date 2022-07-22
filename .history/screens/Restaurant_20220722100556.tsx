@@ -5,10 +5,10 @@ import { RootStackParams } from '../App';
 
 type Props = NativeStackNavigationProp<RootStackParams, 'Restaurant'>;
 
-const RestaurantScreen: React.FC<Props> = ({name}) => {
+const RestaurantScreen:React.FC<pROPS> = () => {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.screenTitle}>{name}</Text>
+			<Text style={styles.screenTitle}>Title</Text>
 		</View>
 	)
 }

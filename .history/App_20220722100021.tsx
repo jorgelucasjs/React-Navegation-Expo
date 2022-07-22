@@ -12,9 +12,7 @@ export type RootStackParams = {
 	Explore: any;
 	Restaurants: any;
 	Profile: any;
-	Restaurant: {
-		name: string
-	};
+	Restaurant: any;
 }
 
 const RootStack = createNativeStackNavigator<RootStackParams>();

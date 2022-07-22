@@ -13,7 +13,7 @@ export type RootStackParams = {
 	Restaurants: any;
 	Profile: any;
 	Restaurant: {
-		name: string
+		name
 	};
 }
 

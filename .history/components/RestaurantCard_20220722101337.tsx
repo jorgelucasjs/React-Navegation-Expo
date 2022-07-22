@@ -8,7 +8,7 @@ interface Props {
 
 const RestaurantCard: React.FC<Props> = ({ name, onPress }) => {
 	return (
-		<TouchableOpacity onPress={onPress}>
+		<TouchableOpacity onPress={}>
 			<View style={styles.container}>
 				<Text>{name}</Text>
 			</View>

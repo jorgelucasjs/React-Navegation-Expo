@@ -3,12 +3,11 @@ import React from 'react'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParams } from '../App';
 
-type Props = NativeStackNavigationProp<RootStackParams, 'Restaurant'>;
-
-const RestaurantScreen: React.FC<Props> = ({name}) => {
+type Props = NativeStackNavigationProp<RootStackParams>;
+const RestaurantScreen = () => {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.screenTitle}>{name}</Text>
+			<Text style={styles.screenTitle}>Title</Text>
 		</View>
 	)
 }

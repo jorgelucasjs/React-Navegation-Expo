@@ -9,12 +9,10 @@ import ProfileScreen from './screens/Profile';
 import RestaurantScreen from './screens/Restaurant';
 
 export type RootStackParams = {
-	Explore: any;
-	Restaurants: any;
-	Profile: any;
-	Restaurant: {
-		name: string
-	};
+	Explore: number;
+	Restaurants: number;
+	Profile: number;
+	Restaurant: number;
 }
 
 const RootStack = createNativeStackNavigator<RootStackParams>();
